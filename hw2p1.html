@@ -1,0 +1,78 @@
+<form>
+    <label for="programming-language">Favorite Programming Language:</label>
+    <select id="programming-language" name="programming-language">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="php">PHP</option>
+      <option value="ruby">Ruby</option>
+    </select>
+    
+    <fieldset>
+      <legend>Expertise Level:</legend>
+      <label>
+        <input type="radio" name="expertise" value="beginner"> Beginner
+      </label>
+      <label>
+        <input type="radio" name="expertise" value="intermediate"> Intermediate
+      </label>
+      <label>
+        <input type="radio" name="expertise" value="advanced"> Advanced
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Preferred Development Platforms:</legend>
+      <label>
+        <input type="checkbox" name="platform" value="web"> Web
+      </label>
+      <label>
+        <input type="checkbox" name="platform" value="mobile"> Mobile
+      </label>
+      <label>
+        <input type="checkbox" name="platform" value="desktop"> Desktop
+      </label>
+    </fieldset>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+  <form>
+    <label for="programming-language">Favorite Programming Language:</label>
+    <select id="programming-language" name="programming-language">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="php">PHP</option>
+      <option value="ruby">Ruby</option>
+    </select>
+    
+    <fieldset>
+      <legend>Expertise Level:</legend>
+      <label>
+        <input type="radio" id="beginner" name="expertise" value="beginner"> Beginner
+      </label>
+      <label for="intermediate">
+        <input type="radio" id="intermediate" name="expertise" value="intermediate"> Intermediate
+      </label>
+      <label for="advanced">
+        <input type="radio" id="advanced" name="expertise" value="advanced"> Advanced
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Preferred Development Platforms:</legend>
+      <label>
+        <input type="checkbox" id="web" name="platform" value="web"> Web
+      </label>
+      <label for="mobile">
+        <input type="checkbox" id="mobile" name="platform" value="mobile"> Mobile
+      </label>
+      <label for="desktop">
+        <input type="checkbox" id="desktop" name="platform" value="desktop"> Desktop
+      </label>
+    </fieldset>
+    
+    <input type="submit" value="Submit">
+  </form>
+  
